@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Profile Page of ABHI's">
+    <title>ABHI's Profile</title>
+    <link rel="icon" href="avatar_face_man_boy_profile_smiley_happy_people_icon_181659.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="script.js" defer></script>
+ <!--   <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const startPage = urlParams.get('start');
+
+            if (!startPage || startPage !== 'profile') {
+                window.location.href = "profile.html";
+            }
+        });
+    </script> -->
+    
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo">
+                <img src="img/name.png" alt="Abhi's Logo">
+            </a>
+            <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+        <div class="nav-menu">
+            <a href="img/abhiramreddy_enukonda_SDE1.pdf" class="resume-button" download target="_blank">Download Resume</a>
+
+            <div id="dark-mode-toggle" class="dark-mode-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+<center>
+    <header>
+        <img src="ABHI.webp" alt="Abhi pic">
+        <h1>Hello, I am Abhiram Reddy, a <span class="about-me"></span></h1>
+       
+            <p>Passionate about bridging technology and user needs, I am a full-stack web developer with a robust foundation in computer science and a zeal for continuous learning. Specializing in creating seamless, intuitive digital experiences, my expertise spans front-end and back-end development, including technologies like JavaScript, React, and Node.js. I thrive on problem-solving and innovation, aiming to contribute to projects that push technological boundaries. Eager to collaborate with like-minded teams, I am on a quest to develop impactful web solutions that drive success and foster growth.</p> <p>Welcome to My World!</p>
+    </header>
+    
+  <!--  <section>
+        <h2>About Me</h2>
+        <p>Hello! I'm ABHIRAM, and here's a little info about me.</p>
+    </section>
+   
+    <hr>--!>
+    <section>
+        <h2>My Technical Skills</h2>
+        <div class="skills-list">
+            <ul class="skills-list">
+                <li>Web Development</li>
+                <li>Programmer</li>
+                <li>Software Development</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="horizontal-scroll">
+        <div class="icon-container">
+            <img src="icon/1.png" alt="Icon 1">
+            <img src="icon/2.png" alt="Icon 2">
+            <img src="icon/3.png" alt="Icon 3">
+            <img src="icon/4.png" alt="Icon 4">
+            <img src="icon/5.webp" alt="Icon 5">
+            <img src="icon/6.webp" alt="Icon 6">
+            <img src="icon/7.svg" alt="Icon 7">
+            <img src="icon/8.png" alt="Icon 8">
+            <img src="icon/9.webp" alt="Icon 9">
+            <img src="icon/10.png" alt="Icon 10">
+            <img src="icon/11.png" alt="Icon 11">
+            <img src="icon/12.png" alt="Icon 12">
+            <img src="icon/13.png" alt="Icon 12">
+
+        </div>
+    </section>
+
+    <hr>
+    <section id="programming-languages">
+        <h2>Programming Languages</h2>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress-bar" data-progress="80"></div>
+        </div>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress-bar" data-progress="90"></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress-bar" data-progress="60"></div>
+        </div>
+        <div class="skill">
+            <p>Java</p>
+            <div class="progress-bar" data-progress="80"></div>
+        </div>
+        <div class="skill">
+            <p>C</p>
+            <div class="progress-bar" data-progress="70"></div>
+        </div>
+        <div class="skill">
+            <p>C++</p>
+            <div class="progress-bar" data-progress="70"></div>
+        </div>
+    </section>
+    <hr>    
+    <section>
+                <h2>My Projects</h2>
+                <p>Take a look at some of my works.</p>
+                <section id="projects">
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="img/hate/1.png" alt="Project 1">
+                            <h3>NLP FOR INCLUSIVE DISCOURSE: DETECTING AND MITIGATING HATE SPEECH</h3>
+                            <p>Description of Project</p>
+                            <a href="#" class="btn know-more" data-modal-target="#projectModal1">Know More</a>
+                        </div>
+                    </div>
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="img/youtube/1.png" alt="Project 1">
+                            <h3>Smart Summarizer: AI-Enhanced Multi-Language Summaries for YouTube Videos</h3>
+                            <p>Description of Project</p>
+                            <a href="#" class="btn know-more" data-modal-target="#projectModal2">Know More</a>
+
+                        </div>
+                    </div>
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="img/load/1.png" alt="Project 1">
+                            <h3>Bidirectional Load Balancing Strategy in Kubernetes Cluster</h3>
+                            <p>Description of Project</p>
+                            <a href="#" class="btn know-more" data-modal-target="#projectModal3">Know More</a>
+                        </div>
+                    </div>      
+                    <div style="display: flex; justify-content: center; align-items: center; margin-top: 30px; margin-bottom: 30px;">
+            <a href="https://github.com/AbhiramReddy59" target="_blank" 
+                style="padding: 15px 30px; background: linear-gradient(45deg, #6a11cb, #2575fc); color: white; font-size: 20px; font-weight: bold; border-radius: 10px; text-decoration: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: background 0.3s, transform 0.3s;">
+                Check My GitHub Profile and Projects
+            </a>
+        </div>
+    </section>
+</section>
+
+<script>
+    document.querySelector("a").addEventListener("mouseover", function() {
+        this.style.background = "linear-gradient(45deg, #2575fc, #6a11cb)";
+        this.style.transform = "scale(1.1)";
+    });
+
+    document.querySelector("a").addEventListener("mouseout", function() {
+        this.style.background = "linear-gradient(45deg, #6a11cb, #2575fc)";
+        this.style.transform = "scale(1)";
+    });
+</script>
+                
+            
+    </section>
+</section>
+
+    <hr>
+    <section>
+       <h2>Contact Me</h2>
+<form id="contact-form">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+    </div>
+
+    <button type="submit">Send Message</button>                
+</form>
+
+<!-- Add this script tag at the end of your body tag -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('contact-form');
+        
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                message: document.getElementById('message').value
+            };
+    
+            try {
+                const response = await fetch('http://localhost:3000/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+    
+                const result = await response.json();
+                alert(result.message);
+                
+                if (response.ok) {
+                    form.reset();
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Failed to send message. Please try again.');
+            }
+        });
+    });
+    </script>
+    </section>
+    <hr>
+    <section>
+        <h2>Contact Information</h2>
+        <p>Let's connect!</p>
+        <a href="mailto:enukonda.abhiramreddy@gmail.com" class="icon-link email-icon"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/abhiram-reddy-enukonda-9aaab4249" class="icon-link linkedin-icon"><i class="fab fa-linkedin"></i></a><br><br><br>   
+    </section>
+</center>
+    <footer>
+        <p>&copy; 2024 Abhi. Built by Abhi.</p>
+    </footer>
+<!-- Project Information Modal -->
+        <!-- Project Information Modal -->
+        <div id="projectModal1" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>NLP FOR INCLUSIVE DISCOURSE: DETECTING AND MITIGATING HATE SPEECH</h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>I developed a Python-based system to classify text as hate speech or non-hate speech using machine learning techniques. The project involved preprocessing text (tokenization, stop word removal, stemming), extracting features with TF-IDF, and experimenting with classifiers like logistic regression and neural networks. The system accepts real-time user input and demonstrates high accuracy in identifying harmful language, contributing to safer online platforms. Future work includes enhancing generalizability across datasets and languages.</p>
+                            <a href="https://github.com/AbhiramReddy59/hate_detection" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="img/hate/1.png" alt="Project Image 1">
+                                    <img src="img/hate/2.png" alt="Project Image 2">
+                                    <img src="img/hate/3.png" alt="Project Image 3">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <ul>
+                                <li>Utilizes Python and machine learning for text classification.</li>
+                                <li>Implements text preprocessing steps, including tokenization, stop word removal, and stemming.</li>
+                                <li>Employs TF-IDF for feature extraction to convert text into numerical representations.</li>
+                                <li>Experiments with classifiers like logistic regression, support vector machines, and neural networks.</li>
+                                <li>Features a console-based interface for real-time hate speech detection.</li>
+                                <li>Achieves high accuracy in identifying harmful language.</li>
+                                <li>Contributes to safer digital spaces through automated content moderation.</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Project Video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=M8R27oyRIyg&ab_channel=ENUKONDA.ABHIRAMREDDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <a href="https://www.youtube.com/watch?v=M8R27oyRIyg" target="_blank">Watch on YouTube</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="projectModal2" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Smart Summarizer: AI-Enhanced Multi-Language Summaries for YouTube Videos </h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>The Smart Summarizer application uses cutting-edge AI models to generate structured, multi-language summaries for YouTube videos. It efficiently retrieves or transcribes video content using Groq's Whisper for transcription and Llama 3.1 for summarization, supporting over 12 languages. Key features include:
+
+                                Transcript Retrieval: Extracts YouTube transcripts or transcribes audio using Whisper with FFmpeg for audio processing.
+                                Advanced Summarization: Employs Langchain for text chunking to organize summaries into sections like Title, Overview, Key Points, and Context.
+                                Streamlit Interface: Intuitive UI for real-time input, language selection, and progress tracking.
+                                Technical Robustness: Incorporates yt-dlp for video processing, authentication cookies for private videos, and robust error handling.</p>
+                            <a href="https://github.com/AbhiramReddy59/youtube_summarizer" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="img/youtube/1.png" alt="Project Image">
+                                    <img src="img/youtube/2.png" alt="Project Image">
+                                    <img src="img/youtube/3.png" alt="Project Image">
+                                    <img src="img/youtube/4.png" alt="Project Image">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <ul>
+                                <li>Leverages Groq's Whisper for high-accuracy video transcription and FFmpeg for audio processing.</li>
+                                <li>Uses Llama 3.1 for nuanced, multi-language summaries supporting over 12 languages.</li>
+                                <li>Implements Langchain for advanced text chunking, organizing summaries into structured sections.</li>
+                                <li>Features an intuitive Streamlit interface for real-time YouTube URL input and summary generation.</li>
+                                <li>Integrates yt-dlp for reliable video processing and authentication cookies for private video access.</li>
+                                <li>Includes robust error handling for invalid URLs, transcript issues, and API errors.</li>
+                                <li>Automates temporary file cleanup to optimize system resource usage.</li>
+                            </ul>
+                            
+                        </div>
+                        <div class="column">
+                            <h3>Project Video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="projectModal3" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Bidirectional Load Balancing Strategy in Kubernetes Cluster</h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>This project implements a bidirectional load balancing strategy in a Kubernetes cluster, optimizing traffic distribution across microservices. Leveraging Kubernetes' Ingress controllers and service discovery, the system ensures high availability and scalability. A custom Python script facilitates round-robin load balancing and enables seamless bidirectional communication between clients and services, improving system reliability and fault tolerance.                            </p>
+                            <a href="https://github.com/AbhiramReddy59/mini_project" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="img/load/1.png" alt="Project Image">
+                                    <img src="img/load/2.png" alt="Project Image">
+                                    <img src="img/load/3.png" alt="Project Image">
+                                    <img src="img/load/4.png" alt="Project Image">
+                                    <img src="img/load/5.png" alt="Project Image">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <ul>
+                                <li>Leverages Kubernetes' Ingress controllers and service discovery for dynamic traffic management.</li>
+                                <li>Implements a custom Python script to enforce a perfect round-robin load balancing pattern.</li>
+                                <li>Optimizes resource usage to prevent pod exhaustion and enhance fault tolerance.</li>
+                                <li>Supports bidirectional communication for seamless data flow between clients and services.</li>
+                                <li>Enhances scalability and resilience for high-traffic microservices-based applications.</li>
+                                <li>Demonstrates Kubernetes' effectiveness in managing distributed systems in production environments.</li>
+                            </ul>
+                            
+                        </div>
+                        <div class="column">
+                            <h3>Project Video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>  
+        
+
+
+    </body>
+</html>
+</body>
+</html>
